@@ -13,15 +13,22 @@
 
 	&__icon {
 		display: block;
+		padding-right: 10px;
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 9px;
 
 		@mixin atSmall {
+			position: relative;
+			top: 8px;
 			margin-right: 9px;
 			margin-left: 0;
 			margin-bottom: 0;
 			display: inline-block;
 		}
+	}
+
+	&--blue {
+		color: $mainBlue;
 	}
 }
