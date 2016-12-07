@@ -794,6 +794,36 @@ a {
   }
 }
 
+@media (min-width: 1010px) {
+
+  .row__b-margin-until-large {
+    margin-bottom: 0;
+  }
+
+  .row__large-4 {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row__large-4--larger {
+    width: 37%;
+  }
+
+  .row__large-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .row__large-8 {
+    float: left;
+    width: 66.66%;
+  }
+
+  .row__large-8--smaller {
+    width: 63%;
+  }
+}
+
 /* Begin Equal Height rules */
 
 @media (min-width: 800px) {
@@ -969,6 +999,84 @@ a {
   font-size: 0.9375rem;
   margin: 0.3125rem 0 1rem 0;
 }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp Instead edit gulp/templates/sprite*/
+
+.icon {
+			background-image: url('/assets/images/sprites/sprite-8eb89099.svg');
+		}
+
+.icon--clear-view-escapes {
+		width: 9.025rem;
+		height: 3.84563rem;
+		background-position: 0 0;
+	}
+
+.icon--comment {
+		width: 4.125rem;
+		height: 4.125rem;
+		background-position: 99.71014492753623% 0;
+	}
+
+.icon--facebook {
+		width: 1.45188rem;
+		height: 2.75063rem;
+		background-position: 26.424310365536293% 45.92133741323979%;
+	}
+
+.icon--fire {
+		width: 3.625rem;
+		height: 4.125rem;
+		background-position: 0 99.58035714285714%;
+	}
+
+.icon--globe {
+		width: 4.125rem;
+		height: 4.125rem;
+		background-position: 28.019323671497585% 99.58035714285714%;
+	}
+
+.icon--instagram {
+		width: 2.75063rem;
+		height: 2.75063rem;
+		background-position: 63.059522249879905% 49.25740726919919%;
+	}
+
+.icon--mail {
+		width: 4.125rem;
+		height: 3.125rem;
+		background-position: 0 48.0703125%;
+	}
+
+.icon--rain {
+		width: 4.125rem;
+		height: 4.125rem;
+		background-position: 99.71014492753623% 58.92857142857143%;
+	}
+
+.icon--star {
+		width: 4.125rem;
+		height: 4.125rem;
+		background-position: 59.90338164251208% 99.58035714285714%;
+	}
+
+.icon--twitter {
+		width: 3.36125rem;
+		height: 2.75375rem;
+		background-position: 94.15199343125627% 98.55159026429745%;
+	}
+
+.icon--wifi {
+		width: 3.875rem;
+		height: 4.125rem;
+		background-position: 68.43601895734596% 0;
+	}
+
+.icon--youtube {
+		width: 2.29688rem;
+		height: 2.75rem;
+		background-position: 37.76931216931217% 45.917910447761194%;
+	}
 
 
 
