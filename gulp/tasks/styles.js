@@ -5,7 +5,8 @@ var gulp = require('gulp'),
     nested = require('postcss-nested'),
     cssImport = require('postcss-import'),
     pxtorem = require('postcss-pxtorem'),
-    mixins = require('postcss-mixins');
+    mixins = require('postcss-mixins'),
+    hexrgba = require('postcss-hexrgba')
 
 gulp.task('styles', function() {
 	var proccesors = [
@@ -13,6 +14,7 @@ gulp.task('styles', function() {
 		mixins(),
 		nested(),
 		cssvars(),
+		hexrgba(),
 		autoprefixer({
 			browsers: 'last 2 version'
 		}),
